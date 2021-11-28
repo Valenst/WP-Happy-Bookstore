@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-title{
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer{
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+.collapse{
+    padding: 8px 0;
+}
+
+.navbar-nav{
+    z-index: 5000;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-item{
+    padding: 15px;
+}
+
+.nav-link{
+    color: dodgerblue !important;
+}
+
+.nav-link:hover{
+    color: #2660FF !important;
+}
+
+.content-title{
+    background-color: orange;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 5px;
+}
